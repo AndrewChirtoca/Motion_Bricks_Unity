@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.0760353">
+  <test-suite type="TestSuite" id="1000" name="Motion_Bricks_Unity" fullname="Motion_Bricks_Unity" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.076035" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1009" name="MotionBricksUnity.Tests.dll" fullname="D:/Projects/Motion_Bricks_Unity/Motion_Bricks_Unity/Library/ScriptAssemblies/MotionBricksUnity.Tests.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.066359" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40676" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1010" name="MotionBricksUnity" fullname="MotionBricksUnity" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.065485" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1011" name="Tests" fullname="MotionBricksUnity.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.064956" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="MotionBoundaryTests" fullname="MotionBricksUnity.Tests.MotionBoundaryTests" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.063312" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="BasisMapsAxesAndConjugatesRotations" fullname="MotionBricksUnity.Tests.MotionBoundaryTests.BasisMapsAxesAndConjugatesRotations" methodname="BasisMapsAxesAndConjugatesRotations" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" seed="613989380" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.027658" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="DelayedResponseUsesAbsoluteTimeAndRejectsStale" fullname="MotionBricksUnity.Tests.MotionBoundaryTests.DelayedResponseUsesAbsoluteTimeAndRejectsStale" methodname="DelayedResponseUsesAbsoluteTimeAndRejectsStale" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" seed="1246634354" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.006281" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="InvalidFramesAndNaNsFailClosed" fullname="MotionBricksUnity.Tests.MotionBoundaryTests.InvalidFramesAndNaNsFailClosed" methodname="InvalidFramesAndNaNsFailClosed" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" seed="347749904" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.001866" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SerialHingeFkMatchesIndependentScipy" fullname="MotionBricksUnity.Tests.MotionBoundaryTests.SerialHingeFkMatchesIndependentScipy" methodname="SerialHingeFkMatchesIndependentScipy" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" seed="648127030" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.002893" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="SmartObjectAnchorTransformsPositionAndHeadingConsistently" fullname="MotionBricksUnity.Tests.MotionBoundaryTests.SmartObjectAnchorTransformsPositionAndHeadingConsistently" methodname="SmartObjectAnchorTransformsPositionAndHeadingConsistently" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" seed="2052830594" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.002709" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="StarvationHoldsAndRebasePreservesFutureContext" fullname="MotionBricksUnity.Tests.MotionBoundaryTests.StarvationHoldsAndRebasePreservesFutureContext" methodname="StarvationHoldsAndRebasePreservesFutureContext" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" seed="1662939225" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.001860" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="TransportTimingAllowsSubMicrosecondRoundoffButNotWrongOrigins" fullname="MotionBricksUnity.Tests.MotionBoundaryTests.TransportTimingAllowsSubMicrosecondRoundoffButNotWrongOrigins" methodname="TransportTimingAllowsSubMicrosecondRoundoffButNotWrongOrigins" classname="MotionBricksUnity.Tests.MotionBoundaryTests" runstate="Runnable" seed="1126945719" result="Passed" start-time="2026-09-19 17:45:44Z" end-time="2026-09-19 17:45:44Z" duration="0.000529" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/andre/AppData/LocalLow/DefaultCompany/Motion_Bricks_Unity\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,7 @@
+Import succeeded.
+Backend: CPU
+Cold execution+readback ms: 136.1128
+Count: 44 reference: 44
+Max absolute error: 8.971989E-05
+PARITY PASSED on initialization fixture only.
+Extracted from unity-native-cpu.log.

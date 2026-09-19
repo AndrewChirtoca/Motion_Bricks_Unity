@@ -1,0 +1,8 @@
+Unity: 6000.3.10f1
+GPU: Null Device
+VRAM MiB: 128
+RAM MiB: 32686
+Avatar exists: True
+Avatar valid: True
+Avatar human: True
+Skinned renderers: 74

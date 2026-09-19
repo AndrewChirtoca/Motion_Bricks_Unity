@@ -1,0 +1,42 @@
+{
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Gameplay/LocomotionDemo.cs": {
+    "sha256": "1f02fbf644a39538ac355ecdaf87cec4b00cdf6030a85b22ce7fddb8d789b662",
+    "size": 18374
+  },
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Gameplay/SmartObjectAnchor.cs": {
+    "sha256": "cedf68462fb842ab3b8701f3c08d55dc512315a1e7909db5695635cf086c3478",
+    "size": 1127
+  },
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Gameplay/SmartObjectDefinition.cs": {
+    "sha256": "e8d912b8174c14399f1a1a302bcf9fbe1a6443420c91a6c8da5c7588998e31b5",
+    "size": 2116
+  },
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Inference/MotionProtocol.cs": {
+    "sha256": "d81c6d9237c7070836b249731a587b87ce75e23a7295bc61648b34ca819bed37",
+    "size": 2729
+  },
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Inference/PythonMotionGenerator.cs": {
+    "sha256": "ff716d257fbe5d513f509e01c3a16aa4ebce7939b3a4970bf0907c24023229c7",
+    "size": 3217
+  },
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Motion/MotionBuffer.cs": {
+    "sha256": "cbd3025536a5747684e5bf79389da647520f3c9ecfc0134116bb43061664b25b",
+    "size": 2880
+  },
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Retargeting/HumanRigMapping.cs": {
+    "sha256": "cdb9f4808e765d3f2a55edb03f3e5e170ba27533bd38bf7c451888681b2c368d",
+    "size": 2245
+  },
+  "Motion_Bricks_Unity/Assets/MotionBricksUnity/Runtime/Skeleton/G1Skeleton.cs": {
+    "sha256": "3ee7401e19cf956a04265a99c36c5d98b12986a0c5e5105b9ada536022b494ad",
+    "size": 2343
+  },
+  "Artifacts/Windows/MotionBricks.exe": {
+    "sha256": "44697487931ca64d09883de957c845c6f138aaf3cd975397e99865ba6aab987f",
+    "size": 667648
+  },
+  "model-manifest.json": {
+    "sha256": "459441d81f1104e4d37cd76b5121560ed5fc5c371123b52d835b0d8a52180100",
+    "size": 41191
+  }
+}

@@ -1,0 +1,10 @@
+/.venv/
+/.python/
+/.cache/
+/External/
+/Models/
+/Artifacts/
+__pycache__/
+*.pyc
+Motion_Bricks_Unity/Assets/MotionBricksUnity/Samples/ReferenceMotion.json
+Motion_Bricks_Unity/Assets/MotionBricksUnity/Samples/ReferenceMotion.json.meta

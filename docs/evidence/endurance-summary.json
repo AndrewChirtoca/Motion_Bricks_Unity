@@ -1,0 +1,31 @@
+{
+  "durationSampledSeconds": 602.63,
+  "warmupExcludedSeconds": 30,
+  "sampleCount": 119,
+  "warmRanges": {
+    "playerWorkingSetMiB": {
+      "min": 659.5234375,
+      "max": 665.85546875,
+      "first": 659.5234375,
+      "last": 665.0703125
+    },
+    "playerThreads": {
+      "min": 129.0,
+      "max": 133.0,
+      "first": 133.0,
+      "last": 131.0
+    },
+    "serviceWorkingSetMiB": {
+      "min": 870.921875,
+      "max": 870.96875,
+      "first": 870.96875,
+      "last": 870.94140625
+    },
+    "serviceThreads": {
+      "min": 50.0,
+      "max": 53.0,
+      "first": 53.0,
+      "last": 51.0
+    }
+  }
+}

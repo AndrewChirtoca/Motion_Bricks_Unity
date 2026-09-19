@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-19 18:09:08Z" end-time="2026-09-19 18:09:21Z" duration="12.5412299">
+  <test-suite type="TestSuite" id="1012" name="Motion_Bricks_Unity" fullname="Motion_Bricks_Unity" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-19 18:09:08Z" end-time="2026-09-19 18:09:21Z" duration="12.541230" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1006" name="MotionBricksUnity.PlayTests.dll" fullname="D:/Projects/Motion_Bricks_Unity/Motion_Bricks_Unity/Library/ScriptAssemblies/MotionBricksUnity.PlayTests.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-19 18:09:08Z" end-time="2026-09-19 18:09:21Z" duration="12.532600" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="34940" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1007" name="MotionBricksUnity" fullname="MotionBricksUnity" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-19 18:09:08Z" end-time="2026-09-19 18:09:21Z" duration="12.531784" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1008" name="Tests" fullname="MotionBricksUnity.Tests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-19 18:09:08Z" end-time="2026-09-19 18:09:21Z" duration="12.531285" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="RuntimeTests" fullname="MotionBricksUnity.Tests.RuntimeTests" classname="MotionBricksUnity.Tests.RuntimeTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-19 18:09:08Z" end-time="2026-09-19 18:09:21Z" duration="12.530142" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="CameraRelativeInputAndRapidReversalsGenerateMotion" fullname="MotionBricksUnity.Tests.RuntimeTests.CameraRelativeInputAndRapidReversalsGenerateMotion" methodname="CameraRelativeInputAndRapidReversalsGenerateMotion" classname="MotionBricksUnity.Tests.RuntimeTests" runstate="Runnable" seed="459611449" result="Passed" start-time="2026-09-19 18:09:08Z" end-time="2026-09-19 18:09:11Z" duration="3.112432" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="CancellationDoesNotLeaveProviderBusy" fullname="MotionBricksUnity.Tests.RuntimeTests.CancellationDoesNotLeaveProviderBusy" methodname="CancellationDoesNotLeaveProviderBusy" classname="MotionBricksUnity.Tests.RuntimeTests" runstate="Runnable" seed="1837833390" result="Passed" start-time="2026-09-19 18:09:11Z" end-time="2026-09-19 18:09:12Z" duration="0.056381" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="RecordedSceneAdvancesWithoutLiveGeneration" fullname="MotionBricksUnity.Tests.RuntimeTests.RecordedSceneAdvancesWithoutLiveGeneration" methodname="RecordedSceneAdvancesWithoutLiveGeneration" classname="MotionBricksUnity.Tests.RuntimeTests" runstate="Runnable" seed="840226254" result="Passed" start-time="2026-09-19 18:09:12Z" end-time="2026-09-19 18:09:14Z" duration="2.985981" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="SceneLoadsAndGeneratesOnHuman" fullname="MotionBricksUnity.Tests.RuntimeTests.SceneLoadsAndGeneratesOnHuman" methodname="SceneLoadsAndGeneratesOnHuman" classname="MotionBricksUnity.Tests.RuntimeTests" runstate="Runnable" seed="1513740388" result="Passed" start-time="2026-09-19 18:09:14Z" end-time="2026-09-19 18:09:21Z" duration="6.362137" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/andre/AppData/LocalLow/DefaultCompany/Motion_Bricks_Unity\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,10 @@
+test_actual_mujoco_fk (test_reference.ProtocolTests.test_actual_mujoco_fk) ... ok
+test_bounded_length_and_fragmented_frame (test_reference.ProtocolTests.test_bounded_length_and_fragmented_frame) ... ok
+test_loopback_real_inference_and_reconnect (test_reference.ProtocolTests.test_loopback_real_inference_and_reconnect) ... ok
+test_reject_invalid_context_and_version_without_model (test_reference.ProtocolTests.test_reject_invalid_context_and_version_without_model) ... ok
+test_skeleton_hinge_count_and_pelvis (test_reference.ProtocolTests.test_skeleton_hinge_count_and_pelvis) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.234s
+
+OK

@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "7f151314d4d1606544bf249d2a7a1cb754c64582",
+  "artifactRevision": "6733128a3d8a523b1418b06bca3cdf61c8b0987f",
+  "selected": "GEAR-SONIC G1 kinematic planner (not the MotionBricks Python backbone)",
+  "codeLicense": "Apache-2.0",
+  "weightsLicense": "NVIDIA Open Model License",
+  "artifacts": [
+    {
+      "url": "https://huggingface.co/nvidia/GEAR-SONIC/resolve/6733128a3d8a523b1418b06bca3cdf61c8b0987f/planner_sonic.onnx",
+      "path": "Models/planner_sonic.onnx",
+      "size": 773952989,
+      "sha256": "39b553e197f62f077975ba38512bc04781a3fc37c2af7c6756e04629f760edea",
+      "publisherSha256": "39b553e197f62f077975ba38512bc04781a3fc37c2af7c6756e04629f760edea"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/GEAR-SONIC/resolve/6733128a3d8a523b1418b06bca3cdf61c8b0987f/LICENSE",
+      "path": "External/LICENSE",
+      "size": 8886,
+      "sha256": "24ab66be50d1aca4fc5e029ef76ce4ceaac6557ea21665caf4b140695a76ffee"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/LICENSE",
+      "path": "External/LICENSE",
+      "size": 8886,
+      "sha256": "24ab66be50d1aca4fc5e029ef76ce4ceaac6557ea21665caf4b140695a76ffee"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/assets/skeletons/g1/g1.xml",
+      "path": "External/motionbricks/assets/skeletons/g1/g1.xml",
+      "size": 31881,
+      "sha256": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/assets/skeletons/g1/g1_29dof.xml",
+      "path": "External/motionbricks/assets/skeletons/g1/g1_29dof.xml",
+      "size": 35824,
+      "sha256": "58660a6f1d0d33ffd8ee967ab3860def53e3327d956cb009dd1385ddaf430f56"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/__init__.py",
+      "path": "External/motionbricks/motionbricks/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/data/__init__.py",
+      "path": "External/motionbricks/motionbricks/data/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/data/synthetic_dataset.py",
+      "path": "External/motionbricks/motionbricks/data/synthetic_dataset.py",
+      "size": 2326,
+      "sha256": "12671e3e0377b15399a3f31979954f9c3d76c5b2b28e97ac8c31fdc8bc7ca528"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/exp_setup/__init__.py",
+      "path": "External/motionbricks/motionbricks/exp_setup/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/exp_setup/experiment.py",
+      "path": "External/motionbricks/motionbricks/exp_setup/experiment.py",
+      "size": 7448,
+      "sha256": "b0c5f499313b419bb61ec2f9f823bb96cdbd3a8fd1950cdb607bb2d303d7ac63"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/geometry/__init__.py",
+      "path": "External/motionbricks/motionbricks/geometry/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/geometry/quaternions.py",
+      "path": "External/motionbricks/motionbricks/geometry/quaternions.py",
+      "size": 1791,
+      "sha256": "0097ef91d690fcd7747df2016921da70222659cb381b953dc3f9772a52bf60da"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/helper/__init__.py",
+      "path": "External/motionbricks/motionbricks/helper/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/helper/data_training_util.py",
+      "path": "External/motionbricks/motionbricks/helper/data_training_util.py",
+      "size": 9756,
+      "sha256": "10aadb51b8980fcddcd792fea983eb570127941ef2268f637bee2ce10c5e2eae"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/helper/mujoco_helper.py",
+      "path": "External/motionbricks/motionbricks/helper/mujoco_helper.py",
+      "size": 24701,
+      "sha256": "fb5a4bea7c5ad80ed92d86f516e6a12b9eef6fd3e2dd9baf322664077853160b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/helper/pl_util.py",
+      "path": "External/motionbricks/motionbricks/helper/pl_util.py",
+      "size": 253,
+      "sha256": "22bf2051922e8fc2c44c33a15bff86d8e5c3ab5697f5b0acbfa56bf3560930ec"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/__init__.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/demo/__init__.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/demo/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/demo/clips.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/demo/clips.py",
+      "size": 14514,
+      "sha256": "34febb205264ae793fdf3971386a1b0a87ad4826ad007a4a7ff15426da2a0713"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/demo/controllers.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/demo/controllers.py",
+      "size": 14283,
+      "sha256": "9f7c2e79c81362ec344abf9c463b2eaacfe648283ccc7b97733bd27e6745552a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/demo/full_agent.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/demo/full_agent.py",
+      "size": 35479,
+      "sha256": "a3d5099a3f314ed230b98c6b3a4d1f867d02563d292740fb03d19388dedc846d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/demo/utils.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/demo/utils.py",
+      "size": 7382,
+      "sha256": "4135b979a4f9768c6476f4bb375c3dade13de393b2888356bf08c2a2de37fae6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/inference/__init__.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/inference/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/inference/motion_inference.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/inference/motion_inference.py",
+      "size": 25195,
+      "sha256": "1093e0e5d76dc425893b53e817066032e709f995c69f68acf4c756cc93fa2855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/models/__init__.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/models/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/models/pose_model.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/models/pose_model.py",
+      "size": 22584,
+      "sha256": "6d3c1d0f233832bfe88cc939fda657ad229ae4f40319a720a4ab316b005c9365"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/models/root_model.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/models/root_model.py",
+      "size": 17797,
+      "sha256": "3266820bbfb6e5d1d83283bb0cf12a34243d3149da54ed0cf22df99c010d1a79"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/models/sampling.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/models/sampling.py",
+      "size": 298,
+      "sha256": "408b468e292bf20a7231b27430c43796d5feeb1740edd3e358767c760e9122ec"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/neural_modules/__init__.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/neural_modules/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/neural_modules/mlp.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/neural_modules/mlp.py",
+      "size": 1152,
+      "sha256": "18722dc89da4f783f86b354b819d246b76c906c5f3712f3d9ac89d9d1bc4769a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/neural_modules/pose_backbone.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/neural_modules/pose_backbone.py",
+      "size": 13695,
+      "sha256": "61c93fe04d4c91f07aec134a7e8578992583247b9db622997127308a176e5c25"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/neural_modules/position_embedding.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/neural_modules/position_embedding.py",
+      "size": 1313,
+      "sha256": "95279ba90b78c49648fc24f88579a71a614a16fee7ace89b4bccd494ef193e2a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motion_backbone/neural_modules/root_backbone.py",
+      "path": "External/motionbricks/motionbricks/motion_backbone/neural_modules/root_backbone.py",
+      "size": 19100,
+      "sha256": "5c725442a0e589f1422178f796c822065b524056fd26ce216bfd64861d0fefed"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/__init__.py",
+      "size": 68,
+      "sha256": "d8afc90becc6641d975c6dd00eab840f814efd913280b09da429c35401c3a7c5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/dual_root_global_joints.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/dual_root_global_joints.py",
+      "size": 2246,
+      "sha256": "6b86e0a639e47f1247ba4ce754e082d5b13c1488545624e0e8f4e562505efe69"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/dual_root_local_body.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/dual_root_local_body.py",
+      "size": 13300,
+      "sha256": "b9b47d2776e188aff3937c0de975bf45c20bebe03664fc1c74f91f74c243f925"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/global_root_local_body.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/global_root_local_body.py",
+      "size": 7168,
+      "sha256": "51b1002a9889ac6e253a3c802e91c8dcd7da81e0d8cbd5d8d05e5e108b5b1a00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/local_root_local_body.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/local_root_local_body.py",
+      "size": 9709,
+      "sha256": "1a8567f0dbe60cb7e3f29999bf23e254111a065e710f4463fc4db006ae6a3e8a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/motion_rep_base.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/motion_rep_base.py",
+      "size": 1638,
+      "sha256": "79ca14575167bc0c131134949593851330abbadec96c44150621331e6d3beb33"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/seperate_root_local_body.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/motion_reps_base/seperate_root_local_body.py",
+      "size": 37835,
+      "sha256": "2c664104dfa4fcc072fda3e16d7c3e5a1353f2d7003eb187a57cca1b3821c164"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/tools/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/tools/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/tools/changing_t_pose.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/tools/changing_t_pose.py",
+      "size": 6370,
+      "sha256": "3b901fccc2126a549902ec8350db46864dcd10afcce4a61f086b98c9c19237d7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/tools/feature_info.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/tools/feature_info.py",
+      "size": 462,
+      "sha256": "7c5a44d21b909774e4b1524ea1bb2b24cdc544a432e785a4eddc8f118aa6301e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/tools/feet.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/tools/feet.py",
+      "size": 1609,
+      "sha256": "73a63b52e8cdac708fbf74d512416f9aa5d03761279a1d191dc83e5c16915cc6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/tools/heading.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/tools/heading.py",
+      "size": 8987,
+      "sha256": "1140b4fce62633abccbc75a141a7b9d319b35f0606bac73ff37a252a89ad1093"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/tools/motion_features.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/tools/motion_features.py",
+      "size": 49226,
+      "sha256": "a02309646853241df6cd667419aed63a2ff8d52dc87168302557901f100444e1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/tools/utils.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/tools/utils.py",
+      "size": 606,
+      "sha256": "94169eec80edf4188f43ea3506a33ad754737752070e856055b940288d05232b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/motion_reps/utils.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/motion_reps/utils.py",
+      "size": 1111,
+      "sha256": "8958b8d5c299392ba7217cf96ad4c7f135c19dd21b2666af2079699eb9d053e1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/skeletons/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/skeletons/__init__.py",
+      "size": 102,
+      "sha256": "4240f323ba922f7a81742db423931d1e3a0f265bc49315acc5a098d36b20fdc1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/skeletons/base.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/skeletons/base.py",
+      "size": 3732,
+      "sha256": "5c558e6ff8da2e98dd75704ef658d4cc54467e93eb10ecf7ddcbf9897ce3ba1d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/skeletons/g1.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/skeletons/g1.py",
+      "size": 8097,
+      "sha256": "6f5bc54dfafed7fb8ccd6133ed6a5114ad5c260bbfb01354ab2bd121ae641eac"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/utils/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/utils/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/utils/custom_logging.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/utils/custom_logging.py",
+      "size": 1646,
+      "sha256": "b684d94035efe0c729ec7f9b46b1f9e2d7872b355f00118d31e7c36478bb7c93"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/utils/rotations.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/utils/rotations.py",
+      "size": 11582,
+      "sha256": "0e57a69fa1924fe0154517103cb828e5bee704db7a753541ac9ceb9b39587707"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/utils/stats.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/utils/stats.py",
+      "size": 3576,
+      "sha256": "aee62e176b6d8add8885a145d0cc9a1f98879bb64c9a37c2b6838fbbdc904566"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/core/utils/torch_utils.py",
+      "path": "External/motionbricks/motionbricks/motionlib/core/utils/torch_utils.py",
+      "size": 4254,
+      "sha256": "13255f80d2ee0b0f7a3da3c0b8793a7d0eb3dc3df07e8ed0519c53e9d53786fe"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/train/__init__.py",
+      "path": "External/motionbricks/motionbricks/motionlib/train/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/train/scheduler.py",
+      "path": "External/motionbricks/motionbricks/motionlib/train/scheduler.py",
+      "size": 1283,
+      "sha256": "ea631096c067dcd12709736259c1ddc5dd7c1b91ef3dc38d7127e416b29b686e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/motionlib/train/utils.py",
+      "path": "External/motionbricks/motionbricks/motionlib/train/utils.py",
+      "size": 966,
+      "sha256": "99b47d27cb617b57183f9464791e1e00d7cbc047c3b1cbe6e690a4ccfe8b8bec"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/__init__.py",
+      "path": "External/motionbricks/motionbricks/vqvae/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/models/__init__.py",
+      "path": "External/motionbricks/motionbricks/vqvae/models/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/models/motion_vqvae.py",
+      "path": "External/motionbricks/motionbricks/vqvae/models/motion_vqvae.py",
+      "size": 17803,
+      "sha256": "1f6eb590ae56f836c67b339c51ab31d9f4296b3f56130fce164dd3938da27db3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/neural_modules/__init__.py",
+      "path": "External/motionbricks/motionbricks/vqvae/neural_modules/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/neural_modules/encdec.py",
+      "path": "External/motionbricks/motionbricks/vqvae/neural_modules/encdec.py",
+      "size": 1178,
+      "sha256": "221c9fd462eafdd0395a55fd0fd07905f7544df2bf29e8124dfa5c0ac185eb05"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/neural_modules/encdec_double_cond.py",
+      "path": "External/motionbricks/motionbricks/vqvae/neural_modules/encdec_double_cond.py",
+      "size": 7904,
+      "sha256": "3813850cc14fe403941f6f8cb572cef2db32b0061c5f54914bd5881bcfbc616e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/neural_modules/quantize_cnn_multihead.py",
+      "path": "External/motionbricks/motionbricks/vqvae/neural_modules/quantize_cnn_multihead.py",
+      "size": 5273,
+      "sha256": "dadbfca9097d6c5c33a743e6bc91ca76662b4a145eaece7b4755e9429224a747"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/neural_modules/resnet.py",
+      "path": "External/motionbricks/motionbricks/vqvae/neural_modules/resnet.py",
+      "size": 3269,
+      "sha256": "bbf64f2c54c6e2da628df2d3aee6336832ab87e50ea63d82a70d1c795ecb0ed3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/motionbricks/vqvae/neural_modules/vqvae.py",
+      "path": "External/motionbricks/motionbricks/vqvae/neural_modules/vqvae.py",
+      "size": 9091,
+      "sha256": "7d2436a9450251dfef64436863c203a87b43863e72eec6d808ed98ca7ed5ab4e"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/G1-clip.ckpt",
+      "path": "External/motionbricks/out/G1-clip.ckpt",
+      "size": 7761041,
+      "sha256": "84afc7c229473351a24b0a7d79fc47be9dbb81bd12774285f2f60a3c0e9028df",
+      "publisherSha256": "84afc7c229473351a24b0a7d79fc47be9dbb81bd12774285f2f60a3c0e9028df"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/checkpoints/model-step=2000000.ckpt",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/checkpoints/model-step=2000000.ckpt",
+      "size": 1639126476,
+      "sha256": "0223c352b308ba638a499cc5c92104da36cb1d04cea2f8ce61d54a2489f853f1",
+      "publisherSha256": "0223c352b308ba638a499cc5c92104da36cb1d04cea2f8ce61d54a2489f853f1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/config.yaml",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/config.yaml",
+      "size": 7243,
+      "sha256": "273af770d328b458510ee6049fac8e38fa486c8792cc27b3515dddc094a7cd1f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/hparams.yaml",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/hparams.yaml",
+      "size": 7176,
+      "sha256": "3c482b9f810a9c4921d2e9fe46dae4e9e70d48ac9ea7d7b19a91fad2490d75e5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/meta.yaml",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/meta.yaml",
+      "size": 29,
+      "sha256": "f70ba7887c5db6cd77739e573bbb734af0ec79a8cbabd9e435b7c72a5d040663"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/skeleton/joints.p",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/skeleton/joints.p",
+      "size": 1943,
+      "sha256": "8a582b7020d1609a34a9ea5ddfa597c8727b3e726e38cc80ecefe68171f43ecd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/skeleton/parents.p",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/skeleton/parents.p",
+      "size": 1436,
+      "sha256": "4ba0237379480ef33e64b7b8564f1d38dcb3e1ad5bfe01652ea1b7c97ccacb71"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/skeleton/skeleton.yaml",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/skeleton/skeleton.yaml",
+      "size": 213,
+      "sha256": "5820a223977a36e04e75824a7f720b57225ac30a067bdd32bc312469f3644050"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/stats/motion/mean.npy",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/stats/motion/mean.npy",
+      "size": 3472,
+      "sha256": "ca390f0081e2373ab71e860a3546cb70cc11fdfac6ce525155403e047b66fdea"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_pose/version_1/stats/motion/std.npy",
+      "path": "External/motionbricks/out/motionbricks_pose/version_1/stats/motion/std.npy",
+      "size": 3472,
+      "sha256": "fca7dd6135cbe96504b1307a7db97e9004556937a2fc72d139077b962cee6bd7"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/checkpoints/model-step=2000000.ckpt",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/checkpoints/model-step=2000000.ckpt",
+      "size": 409551754,
+      "sha256": "d7299a9b1f5aca35730c36dfe7ea28075708ac8266bf384fe8e2ef9c9aee69c7",
+      "publisherSha256": "d7299a9b1f5aca35730c36dfe7ea28075708ac8266bf384fe8e2ef9c9aee69c7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/config.yaml",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/config.yaml",
+      "size": 6397,
+      "sha256": "b174f03a333f7f7857c3e2b8a32da517caddd198f228efeea2e203d046ce212a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/hparams.yaml",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/hparams.yaml",
+      "size": 6330,
+      "sha256": "15dfadeab65b8ab1931b4e5257a2f9ebfa57e559510af1bd5baa96cfe2baeaf5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/meta.yaml",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/meta.yaml",
+      "size": 29,
+      "sha256": "c541e9d63b9b876a56c031a360d4d3929013b83515510a10f47ae63f6c7c8f17"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/skeleton/joints.p",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/skeleton/joints.p",
+      "size": 1943,
+      "sha256": "8a582b7020d1609a34a9ea5ddfa597c8727b3e726e38cc80ecefe68171f43ecd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/skeleton/parents.p",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/skeleton/parents.p",
+      "size": 1436,
+      "sha256": "4ba0237379480ef33e64b7b8564f1d38dcb3e1ad5bfe01652ea1b7c97ccacb71"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/skeleton/skeleton.yaml",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/skeleton/skeleton.yaml",
+      "size": 213,
+      "sha256": "5820a223977a36e04e75824a7f720b57225ac30a067bdd32bc312469f3644050"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/stats/motion/mean.npy",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/stats/motion/mean.npy",
+      "size": 3472,
+      "sha256": "ca390f0081e2373ab71e860a3546cb70cc11fdfac6ce525155403e047b66fdea"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_root/version_1/stats/motion/std.npy",
+      "path": "External/motionbricks/out/motionbricks_root/version_1/stats/motion/std.npy",
+      "size": 3472,
+      "sha256": "fca7dd6135cbe96504b1307a7db97e9004556937a2fc72d139077b962cee6bd7"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/checkpoints/model-step=2000000.ckpt",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/checkpoints/model-step=2000000.ckpt",
+      "size": 285607244,
+      "sha256": "f12a09d46ad390a8e2eecbe7219b2472fcab6b59df0a13f6a40c35cb6da4d99a",
+      "publisherSha256": "f12a09d46ad390a8e2eecbe7219b2472fcab6b59df0a13f6a40c35cb6da4d99a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/config.yaml",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/config.yaml",
+      "size": 6320,
+      "sha256": "027a2d7ba5f49cadeadbcc9a6b0c6784d657d5a842e41ff820c5233f1cd6c1f3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/hparams.yaml",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/hparams.yaml",
+      "size": 6251,
+      "sha256": "7af860d6c144ff71ccdb4085b8413be892194ef419031b81e231502c2181576d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/meta.yaml",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/meta.yaml",
+      "size": 30,
+      "sha256": "7bdf23605dcb89708a39bae33e12de59ebf4d216ba09b91931a2f813cc57e8c7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/skeleton/joints.p",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/skeleton/joints.p",
+      "size": 1943,
+      "sha256": "8a582b7020d1609a34a9ea5ddfa597c8727b3e726e38cc80ecefe68171f43ecd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/skeleton/parents.p",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/skeleton/parents.p",
+      "size": 1436,
+      "sha256": "4ba0237379480ef33e64b7b8564f1d38dcb3e1ad5bfe01652ea1b7c97ccacb71"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/skeleton/skeleton.yaml",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/skeleton/skeleton.yaml",
+      "size": 213,
+      "sha256": "5820a223977a36e04e75824a7f720b57225ac30a067bdd32bc312469f3644050"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/stats/motion/mean.npy",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/stats/motion/mean.npy",
+      "size": 3472,
+      "sha256": "ca390f0081e2373ab71e860a3546cb70cc11fdfac6ce525155403e047b66fdea"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/out/motionbricks_vqvae/version_1/stats/motion/std.npy",
+      "path": "External/motionbricks/out/motionbricks_vqvae/version_1/stats/motion/std.npy",
+      "size": 3472,
+      "sha256": "fca7dd6135cbe96504b1307a7db97e9004556937a2fc72d139077b962cee6bd7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/scripts/interactive_demo_g1.py",
+      "path": "External/motionbricks/scripts/interactive_demo_g1.py",
+      "size": 7483,
+      "sha256": "e04f194dd9fe8c6dee52d005ed91236b35a122341b98277629a28f73080583d2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/scripts/train_pose.py",
+      "path": "External/motionbricks/scripts/train_pose.py",
+      "size": 5771,
+      "sha256": "8e05602a43c34735aed83545371c49da3951cd3ac5c396273b41e97595c607cd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/scripts/train_root.py",
+      "path": "External/motionbricks/scripts/train_root.py",
+      "size": 5400,
+      "sha256": "ef8d52b7b65955aa686b9b9376c192e0fef37cbb45316367aa4e9e53cd2032ef"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/scripts/train_vqvae.py",
+      "path": "External/motionbricks/scripts/train_vqvae.py",
+      "size": 5070,
+      "sha256": "002d10e7292c55094aa7d6685ab92319e984ce1f146f63487a8b068e68021d69"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/7f151314d4d1606544bf249d2a7a1cb754c64582/motionbricks/setup.py",
+      "path": "External/motionbricks/setup.py",
+      "size": 490,
+      "sha256": "5af3f8b18ebc34fb560b8f929326aa66ba133354cd2b809559891f99c85ef0f0"
+    }
+  ]
+}

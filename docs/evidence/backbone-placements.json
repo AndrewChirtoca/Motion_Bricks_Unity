@@ -1,0 +1,155 @@
+[
+  {
+    "placement": 0,
+    "tokens": 8,
+    "transform": [
+      0,
+      0,
+      0
+    ],
+    "validFrames": 32,
+    "inferenceMs": 327.23040000018955,
+    "peakAllocatedMiB": 762.236328125,
+    "finalJointPositionMaxErrorMeters": 0.09492861149552222,
+    "humanScaledMaxErrorMeters": 0.13473949729154097,
+    "finalRootErrorMeters": 0.039683565497398376,
+    "minJointHeightMeters": 0.02241230614006967,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 0,
+    "tokens": 12,
+    "transform": [
+      0,
+      0,
+      0
+    ],
+    "validFrames": 48,
+    "inferenceMs": 49.2019999992408,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.07366805511687773,
+    "humanScaledMaxErrorMeters": 0.10456275043443407,
+    "finalRootErrorMeters": 0.05191754177212715,
+    "minJointHeightMeters": 0.02571844837798408,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 0,
+    "tokens": 16,
+    "transform": [
+      0,
+      0,
+      0
+    ],
+    "validFrames": 64,
+    "inferenceMs": 47.56749999978638,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.07475783291008199,
+    "humanScaledMaxErrorMeters": 0.10610955607819673,
+    "finalRootErrorMeters": 0.06394772976636887,
+    "minJointHeightMeters": 0.028194952064549254,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 1,
+    "tokens": 8,
+    "transform": [
+      2,
+      1,
+      1.5707963267948966
+    ],
+    "validFrames": 32,
+    "inferenceMs": 52.20960000042396,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.0640378872695797,
+    "humanScaledMaxErrorMeters": 0.09089391072282293,
+    "finalRootErrorMeters": 0.03913496807217598,
+    "minJointHeightMeters": 0.021459356660473793,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 1,
+    "tokens": 12,
+    "transform": [
+      2,
+      1,
+      1.5707963267948966
+    ],
+    "validFrames": 48,
+    "inferenceMs": 40.13180000038119,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.04915358665546092,
+    "humanScaledMaxErrorMeters": 0.06976747528162681,
+    "finalRootErrorMeters": 0.046555209904909134,
+    "minJointHeightMeters": 0.026483011653266053,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 1,
+    "tokens": 16,
+    "transform": [
+      2,
+      1,
+      1.5707963267948966
+    ],
+    "validFrames": 64,
+    "inferenceMs": 41.040699999939534,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.04795119913328063,
+    "humanScaledMaxErrorMeters": 0.06806083396731837,
+    "finalRootErrorMeters": 0.04573126137256622,
+    "minJointHeightMeters": 0.026755600874459568,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 2,
+    "tokens": 8,
+    "transform": [
+      -1,
+      2,
+      -0.7853981633974483
+    ],
+    "validFrames": 32,
+    "inferenceMs": 40.39069999998901,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.09162695350886227,
+    "humanScaledMaxErrorMeters": 0.13005319955324374,
+    "finalRootErrorMeters": 0.04138653352856636,
+    "minJointHeightMeters": 0.02103766737085041,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 2,
+    "tokens": 12,
+    "transform": [
+      -1,
+      2,
+      -0.7853981633974483
+    ],
+    "validFrames": 48,
+    "inferenceMs": 53.19469999994908,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.0851486350566884,
+    "humanScaledMaxErrorMeters": 0.12085802269572071,
+    "finalRootErrorMeters": 0.05408306419849396,
+    "minJointHeightMeters": 0.02484834990985567,
+    "targetRootHeight": 0.45027032494544983
+  },
+  {
+    "placement": 2,
+    "tokens": 16,
+    "transform": [
+      -1,
+      2,
+      -0.7853981633974483
+    ],
+    "validFrames": 64,
+    "inferenceMs": 40.748899999925925,
+    "peakAllocatedMiB": 762.337890625,
+    "finalJointPositionMaxErrorMeters": 0.08646286067306633,
+    "humanScaledMaxErrorMeters": 0.12272340443984092,
+    "finalRootErrorMeters": 0.06389161944389343,
+    "minJointHeightMeters": 0.025008385986711488,
+    "targetRootHeight": 0.45027032494544983
+  }
+]

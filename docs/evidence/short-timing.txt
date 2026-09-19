@@ -1,0 +1,11 @@
+Provider: Python ONNX Runtime CPU (loopback)
+Accepted: 22
+Underruns: 0
+Rejected: 0
+Update CPU p95 ms: 0.0725
+Frame p95 ms: 16.6675
+Request completion p95 ms (not observable response): 66.6879
+Status: Python ONNX Runtime CPU (loopback)
+Observable source response p95 ms: 68.1008
+Observable samples: 5
+Render mode: explicit offscreen 1920x1080

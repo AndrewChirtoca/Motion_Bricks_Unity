@@ -1,0 +1,784 @@
+{
+  "nodes": [
+    {
+      "name": "pelvis",
+      "parent": -1,
+      "position": [
+        0.0,
+        0.0,
+        0.793
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "qposIndex": -1
+    },
+    {
+      "name": "left_hip_pitch_link",
+      "parent": 0,
+      "position": [
+        0.0,
+        0.064452,
+        -0.1027
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 7
+    },
+    {
+      "name": "left_hip_roll_link",
+      "parent": 1,
+      "position": [
+        0.0,
+        0.052,
+        -0.030465
+      ],
+      "rotation": [
+        0.996179,
+        0.0,
+        -0.0873386,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 8
+    },
+    {
+      "name": "left_hip_yaw_link",
+      "parent": 2,
+      "position": [
+        0.025001,
+        0.0,
+        -0.12412
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 9
+    },
+    {
+      "name": "left_knee_link",
+      "parent": 3,
+      "position": [
+        -0.078273,
+        0.0021489,
+        -0.17734
+      ],
+      "rotation": [
+        0.996179,
+        0.0,
+        0.0873386,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 10
+    },
+    {
+      "name": "left_ankle_pitch_link",
+      "parent": 4,
+      "position": [
+        0.0,
+        -9.4445e-05,
+        -0.30001
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 11
+    },
+    {
+      "name": "left_ankle_roll_link",
+      "parent": 5,
+      "position": [
+        0.0,
+        0.0,
+        -0.017558
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 12
+    },
+    {
+      "name": "right_hip_pitch_link",
+      "parent": 0,
+      "position": [
+        0.0,
+        -0.064452,
+        -0.1027
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 13
+    },
+    {
+      "name": "right_hip_roll_link",
+      "parent": 7,
+      "position": [
+        0.0,
+        -0.052,
+        -0.030465
+      ],
+      "rotation": [
+        0.996179,
+        0.0,
+        -0.0873386,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 14
+    },
+    {
+      "name": "right_hip_yaw_link",
+      "parent": 8,
+      "position": [
+        0.025001,
+        0.0,
+        -0.12412
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 15
+    },
+    {
+      "name": "right_knee_link",
+      "parent": 9,
+      "position": [
+        -0.078273,
+        -0.0021489,
+        -0.17734
+      ],
+      "rotation": [
+        0.996179,
+        0.0,
+        0.0873386,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 16
+    },
+    {
+      "name": "right_ankle_pitch_link",
+      "parent": 10,
+      "position": [
+        0.0,
+        9.4445e-05,
+        -0.30001
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 17
+    },
+    {
+      "name": "right_ankle_roll_link",
+      "parent": 11,
+      "position": [
+        0.0,
+        0.0,
+        -0.017558
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 18
+    },
+    {
+      "name": "waist_yaw_link",
+      "parent": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 19
+    },
+    {
+      "name": "waist_roll_link",
+      "parent": 13,
+      "position": [
+        -0.0039635,
+        0.0,
+        0.035
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 20
+    },
+    {
+      "name": "torso_link",
+      "parent": 14,
+      "position": [
+        0.0,
+        0.0,
+        0.019
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 21
+    },
+    {
+      "name": "left_shoulder_pitch_link",
+      "parent": 15,
+      "position": [
+        0.0039563,
+        0.10022,
+        0.23778
+      ],
+      "rotation": [
+        0.990264,
+        0.139201,
+        1.38722e-05,
+        -9.86868e-05
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 22
+    },
+    {
+      "name": "left_shoulder_roll_link",
+      "parent": 16,
+      "position": [
+        0.0,
+        0.038,
+        -0.013831
+      ],
+      "rotation": [
+        0.990268,
+        -0.139172,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 23
+    },
+    {
+      "name": "left_shoulder_yaw_link",
+      "parent": 17,
+      "position": [
+        0.0,
+        0.00624,
+        -0.1032
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 24
+    },
+    {
+      "name": "left_elbow_link",
+      "parent": 18,
+      "position": [
+        0.015783,
+        0.0,
+        -0.080518
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 25
+    },
+    {
+      "name": "left_wrist_roll_link",
+      "parent": 19,
+      "position": [
+        0.1,
+        0.00188791,
+        -0.01
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 26
+    },
+    {
+      "name": "left_wrist_pitch_link",
+      "parent": 20,
+      "position": [
+        0.038,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 27
+    },
+    {
+      "name": "left_wrist_yaw_link",
+      "parent": 21,
+      "position": [
+        0.046,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 28
+    },
+    {
+      "name": "right_shoulder_pitch_link",
+      "parent": 15,
+      "position": [
+        0.0039563,
+        -0.10021,
+        0.23778
+      ],
+      "rotation": [
+        0.990264,
+        -0.139201,
+        1.38722e-05,
+        9.86868e-05
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 29
+    },
+    {
+      "name": "right_shoulder_roll_link",
+      "parent": 23,
+      "position": [
+        0.0,
+        -0.038,
+        -0.013831
+      ],
+      "rotation": [
+        0.990268,
+        0.139172,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 30
+    },
+    {
+      "name": "right_shoulder_yaw_link",
+      "parent": 24,
+      "position": [
+        0.0,
+        -0.00624,
+        -0.1032
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 31
+    },
+    {
+      "name": "right_elbow_link",
+      "parent": 25,
+      "position": [
+        0.015783,
+        0.0,
+        -0.080518
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 32
+    },
+    {
+      "name": "right_wrist_roll_link",
+      "parent": 26,
+      "position": [
+        0.1,
+        -0.00188791,
+        -0.01
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 33
+    },
+    {
+      "name": "right_wrist_pitch_link",
+      "parent": 27,
+      "position": [
+        0.038,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 34
+    },
+    {
+      "name": "right_wrist_yaw_link",
+      "parent": 28,
+      "position": [
+        0.046,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qposIndex": 35
+    }
+  ]
+}

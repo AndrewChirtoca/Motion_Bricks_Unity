@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1870ffa21ba1a748b3f72b82c8367f8, type: 3}
+  m_Name: ChairDefinition
+  m_EditorClassIdentifier: MotionBricksUnity::MotionBricksUnity.SmartObjectDefinition
+  approachCenter: {x: 0, y: 0, z: 1}
+  approachHalfExtents: {x: 0.5, y: 0.8, z: 0.6}
+  entry:
+    label: Entry
+    qpos:
+    - 0
+    - 0
+    - 0.78874
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    transitionTokens: 12
+    constrainRoot: 1
+    constrainBody: 1
+  interaction:
+    label: Seated
+    qpos:
+    - 0
+    - 0
+    - 0.45027032
+    - 1
+    - 0
+    - 0
+    - 0
+    - -1.5707964
+    - 0
+    - 0
+    - 1.5707964
+    - 0
+    - 0
+    - -1.5707964
+    - 0
+    - 0
+    - 1.5707964
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    transitionTokens: 12
+    constrainRoot: 1
+    constrainBody: 1
+  exit:
+    label: Exit
+    qpos:
+    - 0
+    - 0
+    - 0.78874
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    transitionTokens: 12
+    constrainRoot: 1
+    constrainBody: 1
+  sourceChairHeight: 0.45
+  humanScaleTolerance: 0.05
+  interruptWithGeneratedRecovery: 1
+  validationStatus: 'INCOMPLETE: released backbone generated sitting in three placements,
+    but 8/12/16-token endpoint tests failed 5 cm at human scale. This is authoring/preview,
+    not a completed generative interaction.'

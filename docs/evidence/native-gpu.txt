@@ -1,0 +1,71 @@
+Import succeeded.
+Fixture: native-fixture.json Backend: GPUCompute
+First execution+readback ms: 646.281
+Count: 44 reference: 44
+Max absolute error: 7.079542E-05
+PARITY PASSED at 1e-4 tolerance.
+Warm schedule ms: 25.4559; total+readback ms: 43.8585
+Warm schedule ms: 23.3529; total+readback ms: 42.8115
+Warm schedule ms: 21.9127; total+readback ms: 42.4648
+Warm schedule ms: 21.8614; total+readback ms: 42.2631
+Warm schedule ms: 23.4196; total+readback ms: 40.2942
+Fixture: native-initialize.json Backend: GPUCompute
+First execution+readback ms: 40.1134
+Count: 44 reference: 44
+Max absolute error: 7.079542E-05
+PARITY PASSED at 1e-4 tolerance.
+Warm schedule ms: 22.1091; total+readback ms: 39.8541
+Warm schedule ms: 22.043; total+readback ms: 39.4154
+Warm schedule ms: 22.0734; total+readback ms: 39.4484
+Warm schedule ms: 22.5093; total+readback ms: 40.2445
+Warm schedule ms: 22.3909; total+readback ms: 39.6574
+Fixture: native-left.json Backend: GPUCompute
+First execution+readback ms: 40.9804
+Count: 44 reference: 44
+Max absolute error: 0.0001404583
+PARITY FAILED at 1e-4 tolerance.
+Warm schedule ms: 21.7239; total+readback ms: 39.4522
+Warm schedule ms: 21.4682; total+readback ms: 39.5417
+Warm schedule ms: 21.5165; total+readback ms: 39.0931
+Warm schedule ms: 25.4103; total+readback ms: 41.4789
+Warm schedule ms: 22.4563; total+readback ms: 39.9949
+Fixture: native-right.json Backend: GPUCompute
+First execution+readback ms: 40.7879
+Count: 44 reference: 44
+Max absolute error: 3.290176E-05
+PARITY PASSED at 1e-4 tolerance.
+Warm schedule ms: 22.7986; total+readback ms: 40.1594
+Warm schedule ms: 22.8226; total+readback ms: 40.5057
+Warm schedule ms: 22.1701; total+readback ms: 39.7905
+Warm schedule ms: 21.7276; total+readback ms: 39.355
+Warm schedule ms: 21.8765; total+readback ms: 39.6306
+Fixture: native-run.json Backend: GPUCompute
+First execution+readback ms: 41.0312
+Count: 36 reference: 36
+Max absolute error: 3.482401E-05
+PARITY PASSED at 1e-4 tolerance.
+Warm schedule ms: 28.487; total+readback ms: 44.9739
+Warm schedule ms: 23.3632; total+readback ms: 40.7471
+Warm schedule ms: 23.0924; total+readback ms: 40.5833
+Warm schedule ms: 23.1149; total+readback ms: 40.9055
+Warm schedule ms: 21.5572; total+readback ms: 39.218
+Fixture: native-stop.json Backend: GPUCompute
+First execution+readback ms: 40.8646
+Count: 44 reference: 44
+Max absolute error: 6.491318E-05
+PARITY PASSED at 1e-4 tolerance.
+Warm schedule ms: 22.6203; total+readback ms: 40.1305
+Warm schedule ms: 24.6721; total+readback ms: 41.9827
+Warm schedule ms: 23.7169; total+readback ms: 41.8763
+Warm schedule ms: 22.0811; total+readback ms: 40.49
+Warm schedule ms: 23.8167; total+readback ms: 41.7356
+Fixture: native-walk.json Backend: GPUCompute
+First execution+readback ms: 41.3214
+Count: 44 reference: 44
+Max absolute error: 5.279481E-05
+PARITY PASSED at 1e-4 tolerance.
+Warm schedule ms: 22.7328; total+readback ms: 40.5673
+Warm schedule ms: 22.8492; total+readback ms: 40.2815
+Warm schedule ms: 22.601; total+readback ms: 40.1026
+Warm schedule ms: 22.2745; total+readback ms: 40.1347
+Warm schedule ms: 21.8855; total+readback ms: 40.1745

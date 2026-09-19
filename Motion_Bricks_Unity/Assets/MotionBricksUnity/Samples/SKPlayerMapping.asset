@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160a26659709cb74fa495a79171d27c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MotionBricksUnity::MotionBricksUnity.HumanRigMapping
+  rootScale: 1.4193771
+  bones:
+  - humanBone: 0
+    sourceBody: pelvis
+    sourceChild: 
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: -0, y: -0, z: -0, w: 1}
+  - humanBone: 7
+    sourceBody: waist_roll_link
+    sourceChild: 
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: -0, y: -0, z: -0, w: 1}
+  - humanBone: 8
+    sourceBody: torso_link
+    sourceChild: 
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: -0, y: -0, z: -0, w: 1}
+  - humanBone: 9
+    sourceBody: torso_link
+    sourceChild: 
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: 0.12258453, y: -0.000081515194, z: -0.000659956, w: 0.99245787}
+  - humanBone: 10
+    sourceBody: torso_link
+    sourceChild: 
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: -0, y: -0, z: -7.275958e-12, w: 1}
+  - humanBone: 1
+    sourceBody: left_hip_yaw_link
+    sourceChild: left_knee_link
+    sourceRest: {x: -0.08733862, y: 0, z: 0, w: 0.9961787}
+    targetRest: {x: -0.0042318148, y: -0.12005706, z: 0.9927393, w: 0.006094777}
+  - humanBone: 3
+    sourceBody: left_knee_link
+    sourceChild: left_ankle_roll_link
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: -0.005128851, y: -0.00000078237156, z: 0.99998695, w: -0.00014868089}
+  - humanBone: 5
+    sourceBody: left_ankle_roll_link
+    sourceChild: 
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: -0.03946604, y: 0.5823473, z: 0.8118622, w: -0.0139288325}
+  - humanBone: 2
+    sourceBody: right_hip_yaw_link
+    sourceChild: right_knee_link
+    sourceRest: {x: -0.08733862, y: 0, z: 0, w: 0.9961787}
+    targetRest: {x: -0.0060942285, y: 0.99273926, z: 0.120057106, w: -0.004232284}
+  - humanBone: 4
+    sourceBody: right_knee_link
+    sourceChild: right_ankle_roll_link
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: 0.00014840171, y: 0.9999868, z: 0.0000012537587, w: -0.0051293354}
+  - humanBone: 6
+    sourceBody: right_ankle_roll_link
+    sourceChild: 
+    sourceRest: {x: 0, y: 0, z: 0, w: 1}
+    targetRest: {x: 0.01392846, y: 0.81186247, z: -0.5823471, w: -0.039466005}
+  - humanBone: 13
+    sourceBody: left_shoulder_yaw_link
+    sourceChild: left_elbow_link
+    sourceRest: {x: 0.000027471626, y: 0.00009579572, z: -0.000029271228, w: 1}
+    targetRest: {x: -0.64992523, y: 0.073172025, z: 0.7538335, w: -0.0630724}
+  - humanBone: 15
+    sourceBody: left_elbow_link
+    sourceChild: left_wrist_yaw_link
+    sourceRest: {x: 0.000027471626, y: 0.00009579572, z: -0.000029271228, w: 1}
+    targetRest: {x: -0.47666425, y: 0.5232145, z: 0.54767746, w: -0.44619203}
+  - humanBone: 17
+    sourceBody: left_wrist_yaw_link
+    sourceChild: 
+    sourceRest: {x: 0.000027471626, y: 0.00009579572, z: -0.000029271228, w: 1}
+    targetRest: {x: -0.47665954, y: 0.52321786, z: 0.5476814, w: -0.446188}
+  - humanBone: 14
+    sourceBody: right_shoulder_yaw_link
+    sourceChild: right_elbow_link
+    sourceRest: {x: 0.000027471626, y: -0.00009579572, z: 0.000029271228, w: 1}
+    targetRest: {x: 0.063067585, y: 0.75385314, z: -0.07317706, w: -0.64990246}
+  - humanBone: 16
+    sourceBody: right_elbow_link
+    sourceChild: right_wrist_yaw_link
+    sourceRest: {x: 0.000027471626, y: -0.00009579572, z: 0.000029271228, w: 1}
+    targetRest: {x: 0.4461757, y: 0.5476944, z: -0.52322817, w: -0.47664547}
+  - humanBone: 18
+    sourceBody: right_wrist_yaw_link
+    sourceChild: 
+    sourceRest: {x: 0.000027471626, y: -0.00009579572, z: 0.000029271228, w: 1}
+    targetRest: {x: 0.44618714, y: 0.54768264, z: -0.5232185, w: -0.47665864}
+  calibrationNotes: Generated from valid Humanoid rest pose and official serial-hinge
+    XML. Whole-chain world rotations, automatic swing alignment; fingers retain rest.
+    No IK. Requires visual acceptance.

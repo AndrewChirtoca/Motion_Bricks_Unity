@@ -1,0 +1,167 @@
+{
+  "modelVersion": "gear-sonic-6733128a3d8a523b1418b06bca3cdf61c8b0987f",
+  "frameRate": 30,
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "loadSeconds": 1.4036582000003364,
+  "inputs": [
+    {
+      "name": "context_mujoco_qpos",
+      "shape": [
+        1,
+        4,
+        36
+      ],
+      "dtype": "tensor(float)"
+    },
+    {
+      "name": "target_vel",
+      "shape": [
+        1
+      ],
+      "dtype": "tensor(float)"
+    },
+    {
+      "name": "mode",
+      "shape": [
+        1
+      ],
+      "dtype": "tensor(int64)"
+    },
+    {
+      "name": "movement_direction",
+      "shape": [
+        1,
+        3
+      ],
+      "dtype": "tensor(float)"
+    },
+    {
+      "name": "facing_direction",
+      "shape": [
+        1,
+        3
+      ],
+      "dtype": "tensor(float)"
+    },
+    {
+      "name": "random_seed",
+      "shape": [
+        1
+      ],
+      "dtype": "tensor(int64)"
+    },
+    {
+      "name": "has_specific_target",
+      "shape": [
+        1,
+        1
+      ],
+      "dtype": "tensor(int64)"
+    },
+    {
+      "name": "specific_target_positions",
+      "shape": [
+        1,
+        4,
+        3
+      ],
+      "dtype": "tensor(float)"
+    },
+    {
+      "name": "specific_target_headings",
+      "shape": [
+        1,
+        4
+      ],
+      "dtype": "tensor(float)"
+    },
+    {
+      "name": "allowed_pred_num_tokens",
+      "shape": [
+        1,
+        11
+      ],
+      "dtype": "tensor(int64)"
+    },
+    {
+      "name": "height",
+      "shape": [
+        1
+      ],
+      "dtype": "tensor(float)"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mujoco_qpos",
+      "shape": [
+        1,
+        64,
+        36
+      ],
+      "dtype": "tensor(float)"
+    },
+    {
+      "name": "num_pred_frames",
+      "shape": [
+        1
+      ],
+      "dtype": "tensor(int32)"
+    }
+  ],
+  "cases": {
+    "initialize": {
+      "validFrames": 44,
+      "firstCallMs": 32.63200000037614,
+      "maxRepeatDifference": 0.0,
+      "rootDisplacementMeters": 0.008599347434937954,
+      "maxRootStepMeters": 0.0004881711502093822,
+      "minJointHeight": 0.02760580018701653
+    },
+    "walk": {
+      "validFrames": 44,
+      "firstCallMs": 30.76409999994212,
+      "maxRepeatDifference": 0.0,
+      "rootDisplacementMeters": 1.071935772895813,
+      "maxRootStepMeters": 0.04352996498346329,
+      "minJointHeight": 0.026959118435758815
+    },
+    "left": {
+      "validFrames": 44,
+      "firstCallMs": 30.292800000097486,
+      "maxRepeatDifference": 0.0,
+      "rootDisplacementMeters": 1.0846848487854004,
+      "maxRootStepMeters": 0.03745654970407486,
+      "minJointHeight": 0.025974474662287115
+    },
+    "right": {
+      "validFrames": 44,
+      "firstCallMs": 30.105100000128004,
+      "maxRepeatDifference": 0.0,
+      "rootDisplacementMeters": 0.906760573387146,
+      "maxRootStepMeters": 0.03806988149881363,
+      "minJointHeight": 0.025746015026248705
+    },
+    "stop": {
+      "validFrames": 44,
+      "firstCallMs": 30.355400000189547,
+      "maxRepeatDifference": 0.0,
+      "rootDisplacementMeters": 0.1750553399324417,
+      "maxRootStepMeters": 0.030351828783750534,
+      "minJointHeight": 0.027776067468375354
+    },
+    "run": {
+      "validFrames": 36,
+      "firstCallMs": 30.108299999938026,
+      "maxRepeatDifference": 0.0,
+      "rootDisplacementMeters": 2.6128487586975098,
+      "maxRootStepMeters": 0.12969368696212769,
+      "minJointHeight": 0.029395750427135946
+    }
+  },
+  "warmP50Ms": 30.128600000125516,
+  "warmP95Ms": 32.183379999924,
+  "rssMiB": 876.8671875
+}
