@@ -1,0 +1,412 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_TestHead_Black LOD0
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AccessoriesMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AccessoriesNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltBaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AnimBumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AnimMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BRDFMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: f12e2cea95bf5b24ab3cfd45b8d29902, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BodyAOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a5df5333ea2a5ec48b99bdf314d35969, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CNumberBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LogoAtlas:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MROMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MSORMap:
+        m_Texture: {fileID: 2800000, guid: d914741509f58774692a33bf6c111a20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Met:
+        m_Texture: {fileID: 2800000, guid: d914741509f58774692a33bf6c111a20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 89d116e97d1195e41a609a3316220487, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NamesMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: a5df5333ea2a5ec48b99bdf314d35969, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalAnim:
+        m_Texture: {fileID: 2800000, guid: aed98a0f7c60ca04493fd639b25009bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NumbersCMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NumbersSMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: c7a0218632502f04d9f3439e67f1f7cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PatternMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleReflectedCubemap_84e526d149bb49538793b8369d8dc84d_Cube_1_Cubemap:
+        m_Texture: {fileID: 8900000, guid: 255f44f5aec24534cb697138c3e8d8b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: d914741509f58774692a33bf6c111a20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaToMask: 0
+    - _AnimLength: 0
+    - _AnimMapFrameID: 0
+    - _AnimOffset: 0
+    - _AnimSpeed: 0.1
+    - _ArmLeftID: 0
+    - _ArmRightID: 0
+    - _BRDFGloss: 0.5
+    - _BRDFShadowed: 0.5
+    - _BaseStencilComp: 8
+    - _BaseStencilFail: 0
+    - _BaseStencilOp: 0
+    - _BaseStencilZFail: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _Blink: -0.023
+    - _BrandLogoScale: 0
+    - _BrowL: 0.194
+    - _BrowR: 0.194
+    - _BumpScale: 1
+    - _CNumberOffset: 0
+    - _CNumberScale: 1
+    - _CheekL: 0
+    - _CheekR: 0.003
+    - _ChestLogoScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _CollarID: 0
+    - _CuffID: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EXTRUSION: 1
+    - _EnableBumpVAT: 0
+    - _EnableFaceAnimation: 1
+    - _EnableVAT: 0
+    - _EnableWorldReflection: 0
+    - _EnvironmentReflections: 1
+    - _EyeOffsetY: 0.257
+    - _EyeOftsetX: 0.007
+    - _FaceToggle: 1
+    - _FontScale: 0.5
+    - _FontSpacing: 0.14
+    - _Fresnel: 0
+    - _FresnelBias: 0
+    - _FresnelPower: 1
+    - _FresnelScale: 1
+    - _GPUAnimation: 0
+    - _GPUAnimationLoop: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 1
+    - _GlossinessSource: 0
+    - _GlossyReflections: 0
+    - _GloveID: 0
+    - _HelmetFlip: 0
+    - _HelmetLogoScale: 1
+    - _HelmetToggle: 0
+    - _Highlight: 1
+    - _InvertFresnelBias: 0
+    - _InvertFresnelPower: 4
+    - _InvertFresnelScale: 1
+    - _JawX: 0.002
+    - _JawY: -0.273
+    - _LegMulti: 1
+    - _LetterID3Toggle: 0
+    - _Metallic: 0.249
+    - _MouthL: 0.018
+    - _MouthR: 0
+    - _MouthWidth: -0.224
+    - _Number: 0
+    - _NumberScale: 1
+    - _NumberSpacing: 0
+    - _NumbersToggle: 1
+    - _Occlusion: 1
+    - _OcclusionStrength: 1
+    - _OutlineCull: 0
+    - _OutlineDstBlend: 0
+    - _OutlineDstBlendAlpha: 0
+    - _OutlineFadeEdge0: 0
+    - _OutlineFadeEdge1: 0
+    - _OutlineSrcBlend: 0
+    - _OutlineSrcBlendAlpha: 0
+    - _OutlineWidth: 0
+    - _OutlineZTest: 0
+    - _OutlineZWrite: 0
+    - _PantsID: 0
+    - _Parallax: 0.005
+    - _PlayerIndex: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReadMask: 255
+    - _ReceiveShadows: 1
+    - _Roughtness: 0.773
+    - _SNumberScale: 1
+    - _SelectionOpacity: 0
+    - _Shininess: 0
+    - _ShoeID: 0
+    - _ShoulderFlip: 0
+    - _ShoulderLogoScale: 1
+    - _SkinBrightness: 1
+    - _SleeveID: 0
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecSource: 0
+    - _Specular: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Stencil: 1
+    - _Surface: 0
+    - _TVNumberPosition: 0
+    - _TVNumberToggle: 0
+    - _TeamColors: 0
+    - _TeamColors1: 0
+    - _TeamColors2: 0
+    - _Transition: 0
+    - _UseNormalsMaps: 1
+    - _WeightLower: 0
+    - _WeightMid: 0.2328376
+    - _WeightUpper: 0
+    - _WorkflowMode: 1
+    - _WorldReflection: 0
+    - _WorldReflectionBlend: 0.5
+    - _WorldReflectionSmoothness: 1.5
+    - _WriteMask: 255
+    - _XRMotionVectorsPass: 1
+    - _ZWrite: 1
+    - _browLowerL: 0
+    - _browLowerR: 0
+    - _cheekRaiserL: 0
+    - _cheekRaiserR: 0
+    - _cheekRasierL: 0
+    - _cheekRasierR: 0
+    - _chinRaiser: 0
+    - _dimplerL: 0
+    - _dimplerR: 0
+    - _eyesCloseL: 0
+    - _eyesCloseR: 0
+    - _eyesLookDown: 0
+    - _eyesLookLeft: 0
+    - _eyesLookRight: 0
+    - _eyesLookUp: 0
+    - _eyesUpperLidRaiserL: 0
+    - _eyesUpperLidRaiserR: 0
+    - _funneler: 0
+    - _innerBrowRaiseR: 0
+    - _innerBrowRaiserL: 0
+    - _jawDrop: 0
+    - _jawSlideL: 0
+    - _jawSlideR: 0
+    - _jawThrust: 0
+    - _lipCornerDepressorL: 0
+    - _lipCornerDepressorR: 0
+    - _lipCornerPullerL: 0
+    - _lipCornerPullerR: 0
+    - _lipPress: 0
+    - _lowerLipDepressorL: 0
+    - _lowerLipDepressorR: 0
+    - _lowerLipPress: 0
+    - _outerBrowRaiserL: 0
+    - _outerBrowRaiserR: 0
+    - _pantsOverride: 0
+    - _pucker: 0
+    - _sockOverride: 0
+    - _tongue: 0
+    - _upperLipRaiseL: 0
+    - _upperLipRaiserR: 0
+    m_Colors:
+    - _AddLightData: {r: 0, g: 1, b: 0, a: 1}
+    - _ArmColor: {r: 0.54742277, g: 0.8584906, b: 0, a: 0}
+    - _BRDFSpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorID: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseMetallicID: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseTint: {r: 1, g: 1, b: 1, a: 1}
+    - _BrandChestPosition: {r: -0.89, g: -0.95, b: 0, a: 0}
+    - _BrandPantsPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _CNumberPosition: {r: -0.72, g: -0.83, b: 0, a: 0}
+    - _ChestPosition: {r: -0.72, g: -0.83, b: 0, a: 0}
+    - _CollarColorID: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CuffColorID: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EyeIrisDark: {r: 0.06648272, g: 0.0946245, b: 0.16981131, a: 0}
+    - _EyeIrisLight: {r: 0.493859, g: 0.538485, b: 0.5849056, a: 0}
+    - _EyeWhite: {r: 0.8962264, g: 0.8429601, b: 0.8074493, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GloveColor: {r: 0.6981132, g: 0, b: 0, a: 0}
+    - _HairHighlight: {r: 0.5849056, g: 0.38981712, b: 0.25658596, a: 0}
+    - _HairShadow: {r: 0.3584906, g: 0.24132891, b: 0.19446424, a: 0}
+    - _HelmetLogoPosition: {r: -0.32, g: -0.35, b: 0, a: 0}
+    - _LetterID01: {r: 1, g: 2, b: 26, a: 4}
+    - _LetterID02: {r: 1, g: 2, b: 26, a: 4}
+    - _LetterID03: {r: 1, g: 2, b: 26, a: 4}
+    - _LetterID04: {r: 1, g: 2, b: 26, a: 4}
+    - _NumberColorID: {r: 0, g: 0, b: 0, a: 0}
+    - _NumberMetallicID: {r: 0, g: 0, b: 0, a: 0}
+    - _NumberOffset: {r: 0, g: 0.02, b: 0, a: 0}
+    - _OutlineColor: {r: 3.8, g: 2, b: 0.2, a: 1}
+    - _PantsColorID: {r: 0, g: 0, b: 0, a: 0}
+    - _PatternMetallicID: {r: 0, g: 0, b: 0, a: 0}
+    - _PrimaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SNumberOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SelectedColor: {r: 0, g: 1, b: 0, a: 0.2}
+    - _ShoeColor: {r: 0, g: 0.13595387, b: 1, a: 0}
+    - _ShoulderPosition: {r: -0.19, g: -0.87, b: 0, a: 0}
+    - _SkinColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SkinHighlight: {r: 0.735849, g: 0.55699116, b: 0.48246706, a: 1}
+    - _SkinMidTones: {r: 0.754717, g: 0.6264528, b: 0.5802777, a: 0}
+    - _SkinShadow: {r: 0.6132076, g: 0.35159805, b: 0.26321647, a: 1}
+    - _SkinUnderTone: {r: 0.4056604, g: 0.17522871, b: 0.12055002, a: 0}
+    - _SleeveColorID: {r: 0, g: 0, b: 0, a: 0}
+    - _SockColor: {r: 0.98131317, g: 0, b: 1, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TeamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TertiaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 1, g: 0.96, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &4526798052315935365
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
